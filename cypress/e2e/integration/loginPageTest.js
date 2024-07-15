@@ -9,7 +9,10 @@ describe("Login test for Sauce Labs page", () => {
     //    })
     it("Login test with valid credentials" ,() => {
         cy.visit("https://www.saucedemo.com/")
-        loginPage.usernameInputField().type("standard_user")
+        //cy.get('[data-test="username"]')
+        //cy.get('[data-test="password"]')
+       // cy.get('[data-test="login-button"]')
+       loginPage.usernameInputField().type("standard_user")
         loginPage.passwordInputField().type("secret_sauce")
         loginPage.loginBtn().click()
 
