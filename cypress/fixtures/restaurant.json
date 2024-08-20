@@ -1,0 +1,14 @@
+{
+  "id": 11,
+  "name": "Protnto",
+  "description": "Best restaurant",
+  "score": 74,
+  "image": "string",
+  "webpage": "www.pronto.ro",
+  "phone": "07123456789",
+  "address": "unirii",
+  "opensAt": "14",
+  "closesAt": "90",
+  "categories": ["romanesc","ieftin"],
+  "numberOfReviews": 50
+}
